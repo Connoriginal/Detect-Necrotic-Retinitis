@@ -1,0 +1,96 @@
+
+--------------------Mean--------------------
+Diagnosis                       0.214798
+Gender                          0.516732
+진단시점나이                         44.584528
+CMV IgM[Serum]                  0.026948
+CMV IgG[Serum]                 40.744567
+HSV IgM[Serum]                  0.136768
+VZV IgM[Serum]                  0.052329
+VZV IgG[Serum]                624.117821
+WBC COUNT[Whole blood]          7.577101
+Lymphocyte(#)[Whole blood]      2.146868
+Lymphocyte(%)[Whole blood]     31.145083
+Monocyte(#)[Whole blood]        0.500306
+Monocyte(%)[Whole blood]        7.123730
+Neutrophil(#)[Whole blood]      4.600358
+Neutrophil(%)[Whole blood]     59.777646
+ESR[Whole blood]               12.059670
+CRP[Serum]                      1.542961
+dtype: float64
+--------------------Median--------------------
+Diagnosis                       0.000
+Gender                          1.000
+진단시점나이                         45.000
+CMV IgM[Serum]                  0.000
+CMV IgG[Serum]                 38.000
+HSV IgM[Serum]                  0.100
+VZV IgM[Serum]                  0.025
+VZV IgG[Serum]                590.000
+WBC COUNT[Whole blood]          6.960
+Lymphocyte(#)[Whole blood]      2.070
+Lymphocyte(%)[Whole blood]     31.100
+Monocyte(#)[Whole blood]        0.460
+Monocyte(%)[Whole blood]        6.700
+Neutrophil(#)[Whole blood]      3.990
+Neutrophil(%)[Whole blood]     59.000
+ESR[Whole blood]               12.000
+CRP[Serum]                      1.050
+dtype: float64
+--------------------Std--------------------
+Diagnosis                       0.607135
+Gender                          0.499747
+진단시점나이                         16.079624
+CMV IgM[Serum]                  0.208796
+CMV IgG[Serum]                 19.364991
+HSV IgM[Serum]                  0.211399
+VZV IgM[Serum]                  0.157827
+VZV IgG[Serum]                476.444730
+WBC COUNT[Whole blood]          4.219794
+Lymphocyte(#)[Whole blood]      0.920298
+Lymphocyte(%)[Whole blood]     11.657564
+Monocyte(#)[Whole blood]        0.261723
+Monocyte(%)[Whole blood]        3.473920
+Neutrophil(#)[Whole blood]      2.609041
+Neutrophil(%)[Whole blood]     12.189033
+ESR[Whole blood]                7.757098
+CRP[Serum]                      2.333825
+dtype: float64
+--------------------Min--------------------
+Diagnosis                     0.00
+Gender                        0.00
+진단시점나이                        0.00
+CMV IgM[Serum]                0.00
+CMV IgG[Serum]                0.00
+HSV IgM[Serum]                0.00
+VZV IgM[Serum]                0.00
+VZV IgG[Serum]                0.00
+WBC COUNT[Whole blood]        0.21
+Lymphocyte(#)[Whole blood]    0.00
+Lymphocyte(%)[Whole blood]    0.00
+Monocyte(#)[Whole blood]      0.01
+Monocyte(%)[Whole blood]      0.00
+Neutrophil(#)[Whole blood]    0.01
+Neutrophil(%)[Whole blood]    0.00
+ESR[Whole blood]              2.00
+CRP[Serum]                    0.00
+dtype: float64
+--------------------Max--------------------
+Diagnosis                        2.00
+Gender                           1.00
+진단시점나이                          92.00
+CMV IgM[Serum]                   6.64
+CMV IgG[Serum]                 267.00
+HSV IgM[Serum]                   5.10
+VZV IgM[Serum]                   5.70
+VZV IgG[Serum]                8500.00
+WBC COUNT[Whole blood]         221.97
+Lymphocyte(#)[Whole blood]      20.40
+Lymphocyte(%)[Whole blood]     100.00
+Monocyte(#)[Whole blood]         9.90
+Monocyte(%)[Whole blood]        94.90
+Neutrophil(#)[Whole blood]      61.26
+Neutrophil(%)[Whole blood]     100.00
+ESR[Whole blood]               120.00
+CRP[Serum]                     151.40
+dtype: float64
