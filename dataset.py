@@ -34,8 +34,8 @@ class SingleTaskDataset(Dataset):
         elif self.mode == 'test':
             self.df = pd.read_csv('./data/test.csv')
 
-        df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
-        # df_features = self.df.drop(['Diagnosis'], axis = 1)
+        # df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
+        df_features = self.df.drop(['Diagnosis'], axis = 1)
         df_labels = self.df['Diagnosis']
         self.feature_names = list(df_features.columns)
         self.features = df_features.values.astype(np.float32)
@@ -79,8 +79,8 @@ class MultiTaskDataset(Dataset):
         elif self.mode == 'test':
             self.df = pd.read_csv('./data/test.csv')
 
-        df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
-        # df_features = self.df.drop(['Diagnosis'], axis = 1)
+        # df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
+        df_features = self.df.drop(['Diagnosis'], axis = 1)
         df_labels = self.df['Diagnosis']
         self.feature_names = list(df_features.columns)
         self.features = df_features.values.astype(np.float32)
@@ -126,8 +126,8 @@ class AdversarialDataset(Dataset):
         elif self.mode == 'test':
             self.df = pd.read_csv('./data/test.csv')
 
-        df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
-        # df_features = self.df.drop(['Diagnosis'], axis = 1)
+        # df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
+        df_features = self.df.drop(['Diagnosis'], axis = 1)
         df_labels = self.df['Diagnosis']
 
         self.feature_names = list(df_features.columns)
@@ -175,8 +175,8 @@ class Adversarial3Dataset(Dataset):
         elif self.mode == 'test':
             self.df = pd.read_csv('./data/test.csv')
 
-        df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
-        # df_features = self.df.drop(['Diagnosis'], axis = 1)
+        # df_features = self.df.drop(['Diagnosis', 'CRP[Serum]'], axis = 1)
+        df_features = self.df.drop(['Diagnosis'], axis = 1)
         df_labels = self.df['Diagnosis']
 
         self.feature_names = list(df_features.columns)

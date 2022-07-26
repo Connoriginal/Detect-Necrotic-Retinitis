@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import pandas as pd
-from sklearn.metrics import roc_auc_score, roc_curve, auc
+from sklearn.metrics import roc_auc_score, roc_curve, auc, precision_score, recall_score, f1_score, confusion_matrix
 from torch.utils.data import DataLoader
 from plotter import TensorboardPlotter
 from dataset import MultiTaskDataset
@@ -62,8 +62,10 @@ def main():
             output_for_ARN, output_for_CMV = model(feature)
             output_for_ARN = output_for_ARN.squeeze()
             output_for_CMV = output_for_CMV.squeeze()
-            pred_for_ARN = torch.where(output_for_ARN > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
-            pred_for_CMV = torch.where(output_for_CMV > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
+            # pred_for_ARN = torch.where(output_for_ARN > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
+            # pred_for_CMV = torch.where(output_for_CMV > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
+            pred_for_ARN = output_for_ARN
+            pred_for_CMV = output_for_CMV
         
         # Save labels and predictions
         test_labels_for_ARN = np.append(test_labels_for_ARN, label_for_ARN.cpu().numpy())
@@ -81,8 +83,43 @@ def main():
     auc_ARN = auc(fpr_ARN, tpr_ARN)
     fpr_CMV, tpr_CMV, thresholds_CMV = roc_curve(test_labels_for_CMV, test_pred_for_CMV)
     auc_CMV = auc(fpr_CMV, tpr_CMV)
+
+    # Find best threshold
+    best_threshold_ARN = thresholds_ARN[np.argmax(tpr_ARN - fpr_ARN)]
+    best_threshold_CMV = thresholds_CMV[np.argmax(tpr_CMV - fpr_CMV)]
+
     print("AUC_ARN : ", auc_ARN)
+    print("Threshold_ARN : ", best_threshold_ARN)
     print("AUC_CMV : ", auc_CMV)
+    print("Threshold_CMV : ", best_threshold_CMV)
+    print('---------------------------------------------------------------------------------------------------------------------')
+    
+    
+
+    # Apply threshold to predict
+    test_pred_for_ARN = np.where(test_pred_for_ARN >= best_threshold_ARN, 1, 0)
+    test_pred_for_CMV = np.where(test_pred_for_CMV >= best_threshold_CMV, 1, 0)
+    
+    # Calculate precision & recall & f1 score
+    precision_ARN = precision_score(test_labels_for_ARN, test_pred_for_ARN)
+    recall_ARN = recall_score(test_labels_for_ARN, test_pred_for_ARN)
+    f1_ARN = f1_score(test_labels_for_ARN, test_pred_for_ARN)
+    precision_CMV = precision_score(test_labels_for_CMV, test_pred_for_CMV)
+    recall_CMV = recall_score(test_labels_for_CMV, test_pred_for_CMV)
+    f1_CMV = f1_score(test_labels_for_CMV, test_pred_for_CMV)
+    print("Precision_ARN : ", precision_ARN)
+    print("Recall_ARN : ", recall_ARN)
+    print("F1_ARN : ", f1_ARN)
+    print("Precision_CMV : ", precision_CMV)
+    print("Recall_CMV : ", recall_CMV)
+    print("F1_CMV : ", f1_CMV)
+    print('---------------------------------------------------------------------------------------------------------------------')
+
+    # Print confusion matrix
+    print("Confusion matrix_ARN : ")
+    print(confusion_matrix(test_labels_for_ARN, test_pred_for_ARN))
+    print("Confusion matrix_CMV : ")
+    print(confusion_matrix(test_labels_for_CMV, test_pred_for_CMV))
 
     # Plot roc curve (ARN)
     figure_ARN = plt.figure(figsize=(10, 10))

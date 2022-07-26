@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import pandas as pd
-from sklearn.metrics import roc_auc_score, roc_curve, auc
+from sklearn.metrics import roc_auc_score, roc_curve, auc, precision_score, recall_score, f1_score, confusion_matrix
 from torch.utils.data import DataLoader
 from plotter import TensorboardPlotter
 from dataset import SingleTaskDataset
@@ -58,7 +58,8 @@ def main():
         with torch.no_grad():
             output = model(feature)
             output = output.squeeze()
-            pred = torch.where(output > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
+            # pred = torch.where(output > 0.5, torch.tensor(1).to(device), torch.tensor(0).to(device))
+            pred = output
         
         # Save prediction
         test_pred = np.append(test_pred, pred.cpu().numpy())
@@ -73,9 +74,28 @@ def main():
     # Compute AUC & roc_curve
     fpr, tpr, thresholds = roc_curve(test_true, test_pred)
     auc_score = auc(fpr, tpr)
+    # get best threshold from roc_curve
+    best_threshold = thresholds[np.argmax(tpr - fpr)]
+
     print("AUC score : ", auc_score)
+    print("Best threshold : ", best_threshold)
 
+    
 
+    test_pred = np.where(test_pred >= best_threshold, 1, 0)
+
+    # Calculate precision, recall 
+    precision = precision_score(test_true, test_pred)
+    recall = recall_score(test_true, test_pred)
+    f1 = f1_score(test_true, test_pred)
+    print("Precision : ", precision)
+    print("Recall : ", recall)
+    print("F1 : ", f1)
+
+    # Print confusion matrix
+    print("Confusion matrix")
+    print(confusion_matrix(test_true, test_pred))
+    
     # Plot roc_curve
     figure = plt.figure(figsize=(10,10))
     plt.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % auc_score)

@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import pandas as pd
-from sklearn.metrics import roc_auc_score, roc_curve, auc
+from sklearn.metrics import roc_auc_score, roc_curve, auc, precision_score, recall_score, f1_score
 from torch.utils.data import DataLoader
 from plotter import TensorboardPlotter
 from dataset import Adversarial3Dataset
@@ -94,6 +94,27 @@ def main():
     print("AUC_0 : ", auc_0)
     print("AUC_ARN : ", auc_ARN)
     print("AUC_CMV : ", auc_CMV)
+    print('---------------------------------------------------------------------------------------------------------------------')
+
+    # Calculate precision & recall score & f1 score
+    precision_0 = precision_score(test_labels_for_0, test_pred_for_0)
+    recall_0 = recall_score(test_labels_for_0, test_pred_for_0)
+    f1_0 = f1_score(test_labels_for_0, test_pred_for_0)
+    precision_ARN = precision_score(test_labels_for_ARN, test_pred_for_ARN)
+    recall_ARN = recall_score(test_labels_for_ARN, test_pred_for_ARN)
+    f1_ARN = f1_score(test_labels_for_ARN, test_pred_for_ARN)
+    precision_CMV = precision_score(test_labels_for_CMV, test_pred_for_CMV)
+    recall_CMV = recall_score(test_labels_for_CMV, test_pred_for_CMV)
+    f1_CMV = f1_score(test_labels_for_CMV, test_pred_for_CMV)
+    print("Precision_0 : ", precision_0)
+    print("Recall_0 : ", recall_0)
+    print("F1_0 : ", f1_0)
+    print("Precision_ARN : ", precision_ARN)
+    print("Recall_ARN : ", recall_ARN)
+    print("F1_ARN : ", f1_ARN)
+    print("Precision_CMV : ", precision_CMV)
+    print("Recall_CMV : ", recall_CMV)
+    print("F1_CMV : ", f1_CMV)
 
     # Plot roc curve (ARN)
     figure_ARN = plt.figure(figsize=(10, 10))

@@ -63,12 +63,23 @@ class PyTorchDeep(Explainer):
                 self.device = out1.device
                 outputs.to(self.device)
             
+            elif self.model_name == 'ADMTL3':
+                # For ADMTL3 model output
+                out0, out1, out2, adversarial_out, _ = model(*data)
+
+                # concat out1, out2, adversarial_out into outputs
+                outputs = torch.cat((out0, out1, out2, adversarial_out), dim=1)
+
+                # also get the device everything is running on
+                self.device = out1.device
+                outputs.to(self.device)
+
             elif self.model_name == 'STMLP':
                 # For SingTaskMLP model output
                 outputs = model(*data)
                 self.device = outputs.device
             
-            elif self.model_name == 'FSMTL' :
+            else :
                 # For FSMTL model output
                 out1, out2 = model(*data)
                 outputs = torch.cat((out1, out2), dim=1)
@@ -124,6 +135,10 @@ class PyTorchDeep(Explainer):
             out1, out2, adversarial_out , _ = self.model(*X)
             outputs = torch.cat((out1, out2, adversarial_out), dim=1)
             outputs.to(self.device)
+        elif self.model_name == 'ADMTL3':
+            out0, out1, out2, adversarial_out, _ = self.model(*X)
+            outputs = torch.cat((out0, out1, out2, adversarial_out), dim=1)
+            outputs.to(self.device)
         elif self.model_name == 'STMLP':
             outputs = self.model(*X)
         elif self.model_name == 'FSMTL':
@@ -176,11 +191,19 @@ class PyTorchDeep(Explainer):
         if ranked_outputs is not None and self.multi_output:
             with torch.no_grad():
                 # model_output_values = self.model(*X)
-                # For ADMTL model output
-                out1, out2, adversarial_out, (a_shared, a_private_1, a_private_2) = self.model(*X)
+                if self.model_name == 'ADMTL':
+                    # For ADMTL model output
+                    out1, out2, adversarial_out, (a_shared, a_private_1, a_private_2) = self.model(*X)
 
-                # concat out1, out2 into outputs
-                model_output_values = torch.cat((out1, out2), dim=1)
+                    # concat out1, out2 into outputs
+                    model_output_values = torch.cat((out1, out2), dim=1)
+                
+                elif self.model_name == 'ADMTL3':
+                    # For ADMTL3 model output
+                    out0, out1, out2, adversarial_out, (a_shared, a_private_1, a_private_2) = self.model(*X)
+
+                    # concat out1, out2 into outputs
+                    model_output_values = torch.cat((out0, out1, out2, adversarial_out), dim=1)
 
 
             # rank and determine the model outputs that we will explain

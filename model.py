@@ -10,7 +10,7 @@ class SingleTaskMLP(nn.Module):
         '''
         super().__init__()
         
-        self.in_dim = 15 # Feature dimension
+        self.in_dim = 17 # Feature dimension
         self.out_dim = 1
         
         self.fc1 = nn.Linear(self.in_dim, hidden_unit)
@@ -31,7 +31,7 @@ class FullySharedMTL(nn.Module):
     def __init__(self, hidden_unit = 128):
         super().__init__()
         
-        self.in_dim = 15
+        self.in_dim = 17
         self.out_dim = 1
 
         self.shared_fc = nn.Linear(self.in_dim, hidden_unit)
@@ -53,7 +53,7 @@ class SharedPrivateMTL(nn.Module):
     def __init__(self, hidden_unit = 128):
         super().__init__()
         
-        self.in_dim = 15
+        self.in_dim = 17
         self.out_dim = 1
 
         self.shared_fc = nn.Linear(self.in_dim, hidden_unit)
@@ -101,7 +101,7 @@ class AdversarialMTL(nn.Module):
     def __init__(self, hidden_unit = 128):
         super().__init__()
         
-        self.in_dim = 15
+        self.in_dim = 17
         self.out_dim = 1
 
         self.shared_fc = nn.Linear(self.in_dim, hidden_unit)
@@ -136,7 +136,7 @@ class AdversarialMTL3(nn.Module):
     def __init__(self, hidden_unit = 128):
         super().__init__()
         
-        self.in_dim = 15
+        self.in_dim = 17
         self.out_dim = 1
 
         self.shared_fc = nn.Linear(self.in_dim, hidden_unit)

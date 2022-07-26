@@ -1,0 +1,350 @@
+지역병원코드
+지역병원코드(코드명)
+연구등록번호
+연구내원번호
+진단코드
+진단코드(코드명)
+Diagnosis
+진단일자
+성별
+성별(코드명)
+Gender
+진단시점나이
+연구등록번호_1
+연구내원번호_1
+HSV IgG[Serum]
+HSV IgG[Serum].1
+HSV IgG[Serum].2
+HSV IgG[Serum].3
+CMV IgM[Serum]
+CMV antibody IgM[Serum]
+CMV IgM[Serum].1
+CMV IgG[Serum]
+CMV IgG[Serum].1
+CMV Ab IgG[Serum]
+HSV IgM[Serum]
+HSV antibody IgM[Serum]
+HSV IgM[Serum].1
+HSV Ab IgM[Serum]
+HSV IgG[Serum].4
+HSV (Herpes Simplex Virus) Ab IgG[Serum](W3323_1)결과입력일시
+CRP (C-Reactive Protein)[Plasma](C2243_3)수치결과
+HSV Ab IgG[Serum]
+HSV antibody IgG[Serum]
+HSV IgG[Serum].5
+HSV Ab IgG[Serum].1
+VZV IgM[Serum]
+VZV IgM[Serum].1
+VZV Ab IgM[Serum]
+VZV IgG[Serum]
+VZV Ab IgG[Serum]
+VZV IgG[Serum].1
+VZV Ab IgG[Serum].1
+CRP (C-Reactive Protein)[Plasma](C2243_3)문자결과
+CRP (C-Reactive Protein)[Plasma](C2243_3)결과입력일시
+EBV antibody IgG to early antigen(EBV EA-DR IgG)[Serum](W8082B_1)수치결과
+EBV antibody IgG to early antigen(EBV EA-DR IgG)[Serum](W8082B_1)수치결과(수치)
+EBV antibody IgG to early antigen(EBV EA-DR IgG)[Serum](W8082B_1)문자결과
+EBV antibody IgG to early antigen(EBV EA-DR IgG)[Serum](W8082B_1)결과입력일시
+Monocyte(#)[Whole blood](L100909200)수치결과(수치)
+Monocyte(#)[Whole blood](L100909200)문자결과
+Monocyte(#)[Whole blood](L100909200)결과입력일시
+HSV type I PCR[Other](W3053A_1)수치결과
+HSV type I PCR[Other](W3053A_1)수치결과(수치)
+HSV type I PCR[Other](W3053A_1)문자결과
+HSV type I PCR[EYE]
+HSV type I PCR[Other](W3053A_1)결과입력일시
+Varicella zoster virus PCR[Other](W3052E_3)수치결과
+Varicella zoster virus PCR[Other](W3052E_3)수치결과(수치)
+Varicella zoster virus PCR[Other](W3052E_3)문자결과
+CMV PCR[EYE]
+CMV-PCR[EYE]
+CMV PCR[EYE].1
+HSV type I PCR[EYE].1
+HSV type I PCR [EYE]
+HSV type I PCR [EYE].1
+HSV type1 PCR[Eye]
+HSV type II PCR[EYE]
+HSV type II PCR [EYE]
+HSV type II PCR[EYE].1
+VZV PCR[EYE]
+Varicella zoster virus PCR[Other](W3052E_3)결과입력일시
+HSV IgG[Serum].6
+HSV IgG[Serum].7
+HSV IgG[Serum].8
+HSV Ab IgG[Serum](W8082D_1)결과입력일시
+Neutrophil(#)[Whole blood](L100907200)수치결과(수치)
+Neutrophil(#)[Whole blood](L100907200)문자결과
+Neutrophil(#)[Whole blood](L100907200)결과입력일시
+EBV VCA IgG[Serum](W8082A_1)수치결과
+EBV VCA IgG[Serum](W8082A_1)수치결과(수치)
+EBV VCA IgG[Serum](W8082A_1)문자결과
+EBV VCA IgG[Serum](W8082A_1)결과입력일시
+HSV type II PCR[CSF](W3053A05)수치결과
+HSV type II PCR[CSF](W3053A05)수치결과(수치)
+HSV type II PCR[CSF](W3053A05)문자결과
+HSV type II PCR[CSF](W3053A05)결과입력일시
+EBV antibody IgG to early antigen[Serum](C468244602)수치결과
+EBV antibody IgG to early antigen[Serum](C468244602)수치결과(수치)
+EBV antibody IgG to early antigen[Serum](C468244602)문자결과
+Unnamed: 89
+EBV antibody IgG to early antigen[Serum](C468244602)결과입력일시
+Corrected WBC count[Whole blood]
+Corrected WBC count[Whole blood](L103014200)문자결과
+Corrected WBC count[Whole blood](L103014200)결과입력일시
+VZV PCR[EYE].1
+VZV (Varicella Zoster Virus) PCR[Other](W3519_1)수치결과(수치)
+VZV (Varicella Zoster Virus) PCR[Other](W3519_1)문자결과
+HSV type II PCR [EYE].1
+VZV PCR[EYE].2
+VZV PCR[EYE].3
+VZV PCR[EYE].4
+VZV PCR[EYE].5
+VZV (Varicella Zoster Virus) PCR[Other](W3519_1)결과입력일시
+VZV PCR[Other](W3519_1)수치결과
+VZV PCR[Other](W3519_1)수치결과(수치)
+VZV PCR[EYE].6
+VZV PCR[EYE].7
+VZV PCR[Other](W3519_1)결과입력일시
+Lymphocyte[Whole blood](L110132200)수치결과
+Lymphocyte[Whole blood](L110132200)문자결과
+Lymphocyte[Whole blood](L110132200)결과입력일시
+HSV Ab IgG[Serum](D6542090_1)수치결과
+HSV Ab IgG[Serum](D6542090_1)수치결과(수치)
+HSV Ab IgG[Serum](D6542090_1)문자결과
+HSV Ab IgG[Serum](D6542090_1)결과입력일시
+HSV type I PCR[CSF](W3053A01)수치결과
+HSV type I PCR[CSF](W3053A01)수치결과(수치)
+HSV type I PCR[CSF](W3053A01)문자결과
+HSV type I PCR[CSF](W3053A01)결과입력일시
+HSV Ab IgG[Serum](C4682466_1)수치결과
+HSV Ab IgG[Serum](C4682466_1)수치결과(수치)
+HSV Ab IgG[Serum](C4682466_1)문자결과
+HSV Ab IgG[Serum](C4682466_1)결과입력일시
+HSV (Herpes Simplex Virus) Ab IgM[Serum](C468346602)수치결과
+HSV (Herpes Simplex Virus) Ab IgM[Serum](C468346602)수치결과(수치)
+HSV (Herpes Simplex Virus) Ab IgM[Serum](C468346602)문자결과
+HSV (Herpes Simplex Virus) Ab IgM[Serum](C468346602)결과입력일시
+Lymphocyte[Whole blood](L103009200)수치결과
+Corrected WBC count[Whole blood].1
+Corrected WBC count[Whole blood](L110137200)문자결과
+Corrected WBC count[Whole blood](L110137200)결과입력일시
+VZV PCR[CSF](W351902)수치결과
+VZV PCR[CSF](W351902)수치결과(수치)
+VZV PCR[CSF](W351902)문자결과
+VZV PCR[CSF](W351902)결과입력일시
+VZV antibody IgG[Serum](C468249602)수치결과
+VZV antibody IgG[Serum](C468249602)수치결과(수치)
+VZV antibody IgG[Serum](C468249602)문자결과
+VZV antibody IgG[Serum](C468249602)결과입력일시
+EBV NA (Nuclear Ag) Ab IgG[Serum](W3616_1)수치결과
+EBV NA (Nuclear Ag) Ab IgG[Serum](W3616_1)수치결과(수치)
+EBV NA (Nuclear Ag) Ab IgG[Serum](W3616_1)문자결과
+EBV NA (Nuclear Ag) Ab IgG[Serum](W3616_1)결과입력일시
+WBC COUNT[Whole blood](B105002)수치결과
+WBC COUNT[Whole blood]
+Corrected WBC count[Whole blood].2
+Lymphocyte[Whole blood]
+Lymphocyte[Whole blood].1
+Lymphocyte[Whole blood](L103009200)문자결과
+Lymphocyte[Whole blood](L103009200)결과입력일시
+EBV Antibody IgM to viral capsid antigen[Serum](C4683446_1)수치결과
+EBV Antibody IgM to viral capsid antigen[Serum](C4683446_1)수치결과(수치)
+EBV Antibody IgM to viral capsid antigen[Serum](C4683446_1)문자결과
+EBV Antibody IgM to viral capsid antigen[Serum](C4683446_1)결과입력일시
+Lymphocyte(#)[Whole blood](L100908200)수치결과
+Lymphocyte(#)[Whole blood]
+Lymphocyte(#)[Whole blood](L100908200)문자결과
+Lymphocyte(#)[Whole blood](L100908200)결과입력일시
+CRP (C-Reactive Protein)[Serum](C224301)수치결과
+CRP (C-Reactive Protein)[Serum](C224301)문자결과
+CRP (C-Reactive Protein)[Serum](C224301)결과입력일시
+HSV (Herpes Simplex Virus) Ab IgG[Serum](C4682466_1)수치결과
+HSV (Herpes Simplex Virus) Ab IgG[Serum](C4682466_1)수치결과(수치)
+HSV (Herpes Simplex Virus) Ab IgG[Serum](C4682466_1)문자결과
+HSV (Herpes Simplex Virus) Ab IgG[Serum](C4682466_1)결과입력일시
+HSV type I PCR[CSF](W9124A_2)수치결과
+HSV type I PCR[CSF](W9124A_2)수치결과(수치)
+HSV type I PCR[CSF](W9124A_2)문자결과
+HSV type I PCR[CSF](W9124A_2)결과입력일시
+VZV Ab IgM[Serum](C468349601)수치결과
+VZV Ab IgM[Serum](C468349601)수치결과(수치)
+VZV Ab IgM[Serum](C468349601)문자결과
+VZV Ab IgM[Serum](C468349601)결과입력일시
+VZV (Varicella Zoster Virus) Ab IgM[Serum](C468349601)수치결과
+VZV (Varicella Zoster Virus) Ab IgM[Serum](C468349601)수치결과(수치)
+VZV (Varicella Zoster Virus) Ab IgM[Serum](C468349601)문자결과
+VZV (Varicella Zoster Virus) Ab IgM[Serum](C468349601)결과입력일시
+VZV (Varicella Zoster Virus) PCR[CSF](W351902)수치결과
+VZV (Varicella Zoster Virus) PCR[CSF](W351902)수치결과(수치)
+VZV (Varicella Zoster Virus) PCR[CSF](W351902)문자결과
+VZV (Varicella Zoster Virus) PCR[CSF](W351902)결과입력일시
+CMV (Cytomegalovirus) Ab IgG[Serum](C468242602)수치결과
+CMV (Cytomegalovirus) Ab IgG[Serum](C468242602)수치결과(수치)
+CMV (Cytomegalovirus) Ab IgG[Serum](C468242602)문자결과
+CMV (Cytomegalovirus) Ab IgG[Serum](C468242602)결과입력일시
+HSV type2 (PCR)[CSF](C5956006N_2)수치결과
+HSV type2 (PCR)[CSF](C5956006N_2)수치결과(수치)
+HSV type2 (PCR)[CSF](C5956006N_2)문자결과
+HSV type2 (PCR)[CSF](C5956006N_2)결과입력일시
+Lymphocyte(count)[Whole blood](L133603200)수치결과
+Lymphocyte(count)[Whole blood]
+Lymphocyte(count)[Whole blood](L133603200)문자결과
+Lymphocyte(count)[Whole blood](L133603200)결과입력일시
+CRP (high-sensitivity)[Serum](C224302)수치결과
+Lymphocyte(%)[Whole blood]
+Lymphocyte(count)[Whole blood].1
+Monocyte(#)[Whole blood]
+Monocyte(%)[Whole blood]
+Neutrophil(#)[Whole blood]
+Neutrophil(%)[Whole blood]
+ESR[Whole blood]
+ESR[Whole blood].1
+CRP[Plasma]
+CRP[Serum]
+CRP[Serum].1
+CRP[Serum].2
+CRP[Serum].3
+CRP (high-sensitivity)[Serum](C224302)문자결과
+CRP (high-sensitivity)[Serum](C224302)결과입력일시
+ESR[Whole blood](B103001)수치결과
+ESR[Whole blood](B103001)문자결과
+ESR[Whole blood](B103001)결과입력일시
+VZV Ab IgG[Serum](C468249602)수치결과
+VZV Ab IgG[Serum](C468249602)수치결과(수치)
+VZV Ab IgG[Serum](C468249602)문자결과
+VZV Ab IgG[Serum](C468249602)결과입력일시
+VZV (Varicella Zoster Virus) Ab IgG[Serum](C468249602)수치결과
+VZV (Varicella Zoster Virus) Ab IgG[Serum](C468249602)수치결과(수치)
+VZV (Varicella Zoster Virus) Ab IgG[Serum](C468249602)문자결과
+VZV (Varicella Zoster Virus) Ab IgG[Serum](C468249602)결과입력일시
+EBV antibody IgG to EBV nuclear antigen[Serum](C468345601)수치결과
+EBV antibody IgG to EBV nuclear antigen[Serum](C468345601)수치결과(수치)
+EBV antibody IgG to EBV nuclear antigen[Serum](C468345601)문자결과
+EBV antibody IgG to EBV nuclear antigen[Serum](C468345601)결과입력일시
+CRP (C-Reactive Protein)_강남의뢰[Serum](C224301)수치결과
+CRP (C-Reactive Protein)_강남의뢰[Serum](C224301)문자결과
+CRP (C-Reactive Protein)_강남의뢰[Serum](C224301)결과입력일시
+HSV type II PCR[Other](W3053A_2)수치결과
+HSV type II PCR[Other](W3053A_2)수치결과(수치)
+HSV type II PCR[Other](W3053A_2)문자결과
+HSV type II PCR[Other](W3053A_2)결과입력일시
+HSV type I (PCR)[CSF](L703401250)수치결과
+HSV type I (PCR)[CSF](L703401250)문자결과
+HSV type I (PCR)[CSF](L703401250)결과입력일시
+EBV VCA (Viral Capsid Ag) Ab IgM[Serum](W3517B01)수치결과
+EBV VCA (Viral Capsid Ag) Ab IgM[Serum](W3517B01)수치결과(수치)
+EBV VCA (Viral Capsid Ag) Ab IgM[Serum](W3517B01)문자결과
+EBV VCA (Viral Capsid Ag) Ab IgM[Serum](W3517B01)결과입력일시
+VZV antibody IgM[Serum](C468349601)수치결과
+VZV antibody IgM[Serum](C468349601)수치결과(수치)
+VZV antibody IgM[Serum](C468349601)문자결과
+VZV antibody IgM[Serum](C468349601)결과입력일시
+EBV antibody IgG to EBV nuclear antigen(EBV EBNA IgG)[Serum](W8082C_1)수치결과
+EBV antibody IgG to EBV nuclear antigen(EBV EBNA IgG)[Serum](W8082C_1)수치결과(수치)
+EBV antibody IgG to EBV nuclear antigen(EBV EBNA IgG)[Serum](W8082C_1)문자결과
+EBV antibody IgG to EBV nuclear antigen(EBV EBNA IgG)[Serum](W8082C_1)결과입력일시
+Monocyte(%)[Whole blood](L100903200)수치결과
+Monocyte(%)[Whole blood](L100903200)문자결과
+Monocyte(%)[Whole blood](L100903200)결과입력일시
+CRP (C-Reactive Protein)[Serum](C224302)수치결과
+CRP (C-Reactive Protein)[Serum](C224302)문자결과
+CRP (C-Reactive Protein)[Serum](C224302)결과입력일시
+Neutrophil(%)[Whole blood](L100901200)수치결과
+Neutrophil(%)[Whole blood](L100901200)문자결과
+Neutrophil(%)[Whole blood](L100901200)결과입력일시
+CMV Quantitative PCR[Other](3B015_3)수치결과
+CMV Quantitative PCR[Other](3B015_3)수치결과(수치)
+CMV Quantitative PCR[Other](3B015_3)결과입력일시
+CMV antibody IgM[Serum](C468342601)수치결과
+CMV antibody IgM[Serum](C468342601)수치결과(수치)
+CMV antibody IgM[Serum](C468342601)문자결과
+CMV antibody IgM[Serum](C468342601)결과입력일시
+Corrected WBC count[Whole blood](L110137200)수치결과
+WBC COUNT[Whole blood](B105002)문자결과
+WBC COUNT[Whole blood](B105002)결과입력일시
+ESR(Infrared Ray,Spin)[Whole blood](B103001)수치결과
+ESR(Infrared Ray,Spin)[Whole blood](B103001)문자결과
+ESR(Infrared Ray,Spin)[Whole blood](B103001)결과입력일시
+EBV antibody IgM to early antigen[Serum](C468344602)수치결과
+EBV antibody IgM to early antigen[Serum](C468344602)수치결과(수치)
+EBV antibody IgM to early antigen[Serum](C468344602)문자결과
+EBV antibody IgM to early antigen[Serum](C468344602)결과입력일시
+HSV antibody IgG[Serum](C468246602)수치결과
+HSV antibody IgG[Serum](C468246602)수치결과(수치)
+HSV antibody IgG[Serum](C468246602)문자결과
+HSV antibody IgG[Serum](C468246602)결과입력일시
+CMV antibody IgG[Serum](C468242602)수치결과
+CMV antibody IgG[Serum](C468242602)수치결과(수치)
+CMV antibody IgG[Serum](C468242602)문자결과
+CMV antibody IgG[Serum](C468242602)결과입력일시
+VZV (Varicella Zoster Virus) Ab IgG[Serum](W3325_1)수치결과
+VZV (Varicella Zoster Virus) Ab IgG[Serum](W3325_1)수치결과(수치)
+VZV (Varicella Zoster Virus) Ab IgG[Serum](W3325_1)문자결과
+VZV (Varicella Zoster Virus) Ab IgG[Serum](W3325_1)결과입력일시
+EBV EA (Early Ag) Ab IgG[Serum](W3614_1)수치결과
+EBV EA (Early Ag) Ab IgG[Serum](W3614_1)수치결과(수치)
+EBV EA (Early Ag) Ab IgG[Serum](W3614_1)문자결과
+EBV EA (Early Ag) Ab IgG[Serum](W3614_1)결과입력일시
+HSV (Herpes Simplex Virus) Ab IgM[Serum](W3322_1)수치결과
+HSV (Herpes Simplex Virus) Ab IgM[Serum](W3322_1)수치결과(수치)
+HSV (Herpes Simplex Virus) Ab IgM[Serum](W3322_1)문자결과
+HSV (Herpes Simplex Virus) Ab IgM[Serum](W3322_1)결과입력일시
+EBV Antibody IgG to viral capsid antigen[Serum](C4682446_1)수치결과
+EBV Antibody IgG to viral capsid antigen[Serum](C4682446_1)수치결과(수치)
+EBV Antibody IgG to viral capsid antigen[Serum](C4682446_1)문자결과
+EBV Antibody IgG to viral capsid antigen[Serum](C4682446_1)결과입력일시
+HSV type1 (PCR)[CSF](C5956006M_2)수치결과
+HSV type1 (PCR)[CSF](C5956006M_2)수치결과(수치)
+HSV type1 (PCR)[CSF](C5956006M_2)문자결과
+HSV type1 (PCR)[CSF](C5956006M_2)결과입력일시
+CMV Quantitative PCR[CSF](3B01501)수치결과
+CMV Quantitative PCR[CSF](3B01501)수치결과(수치)
+CMV Quantitative PCR[CSF](3B01501)문자결과
+CMV Quantitative PCR[CSF](3B01501)결과입력일시
+HSV type II (PCR)[CSF](L703402250)수치결과
+HSV type II (PCR)[CSF](L703402250)수치결과(수치)
+HSV type II (PCR)[CSF](L703402250)문자결과
+HSV type II (PCR)[CSF](L703402250)결과입력일시
+HSV Ab IgM[Serum](C468346602)수치결과
+HSV Ab IgM[Serum](C468346602)수치결과(수치)
+HSV Ab IgM[Serum](C468346602)문자결과
+HSV Ab IgM[Serum](C468346602)결과입력일시
+CMV (Cytomegalovirus) Ab IgG[Serum](W3663_1)수치결과
+CMV (Cytomegalovirus) Ab IgG[Serum](W3663_1)수치결과(수치)
+CMV (Cytomegalovirus) Ab IgG[Serum](W3663_1)문자결과
+CMV (Cytomegalovirus) Ab IgG[Serum](W3663_1)결과입력일시
+HSV type II PCR[CSF](W9124B_2)수치결과
+HSV type II PCR[CSF](W9124B_2)수치결과(수치)
+HSV type II PCR[CSF](W9124B_2)문자결과
+HSV type II PCR[CSF](W9124B_2)결과입력일시
+Lymphocyte(%)[Whole blood](L100902200)수치결과
+Lymphocyte(%)[Whole blood](L100902200)문자결과
+Lymphocyte(%)[Whole blood](L100902200)결과입력일시
+CMV-PCR[CSF](C595100604)수치결과
+CMV-PCR[CSF](C595100604)수치결과(수치)
+CMV-PCR[CSF](C595100604)문자결과
+CMV-PCR[CSF](C595100604)결과입력일시
+CMV (Cytomegalovirus) Ab IgM[Serum](C468342601)수치결과
+CMV (Cytomegalovirus) Ab IgM[Serum](C468342601)수치결과(수치)
+CMV (Cytomegalovirus) Ab IgM[Serum](C468342601)문자결과
+CMV (Cytomegalovirus) Ab IgM[Serum](C468342601)결과입력일시
+HSV antibody IgM[Serum](C468346602)수치결과
+HSV antibody IgM[Serum](C468346602)수치결과(수치)
+HSV antibody IgM[Serum](C468346602)문자결과
+HSV antibody IgM[Serum](C468346602)결과입력일시
+Lymphocyte(count)[Whole blood](L133703200)수치결과
+Lymphocyte(count)[Whole blood](L133703200)문자결과
+Lymphocyte(count)[Whole blood](L133703200)결과입력일시
+CMV (Cytomegalovirus) Ab IgM[Serum](W2049_1)수치결과
+CMV (Cytomegalovirus) Ab IgM[Serum](W2049_1)수치결과(수치)
+CMV (Cytomegalovirus) Ab IgM[Serum](W2049_1)문자결과
+CMV (Cytomegalovirus) Ab IgM[Serum](W2049_1)결과입력일시
+Varicella zoster virus PCR[CSF](W3052E_2)수치결과
+Varicella zoster virus PCR[CSF](W3052E_2)수치결과(수치)
+Varicella zoster virus PCR[CSF](W3052E_2)문자결과
+Varicella zoster virus PCR[CSF](W3052E_2)결과입력일시
+CMV (Cytomegalovirus) Ab IgM[Serum](W3661_1)수치결과
+CMV (Cytomegalovirus) Ab IgM[Serum](W3661_1)수치결과(수치)
+CMV (Cytomegalovirus) Ab IgM[Serum](W3661_1)문자결과
+CMV (Cytomegalovirus) Ab IgM[Serum](W3661_1)결과입력일시
