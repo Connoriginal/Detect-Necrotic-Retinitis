@@ -4,6 +4,10 @@ import pandas as pd
 import numpy as np
 import scipy.io as sio
 
+TRAIN_PATH = './data/train_data/train.csv'
+VALID_PATH = './data/valid_data/valid.csv'
+TEST_PATH = './data/test_data/test.csv'
+
 class SingleTaskDataset(Dataset):
     def __init__(self, mode = 'train', train_type = 'smote', class_type = 1):
         '''
